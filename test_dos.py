@@ -24,4 +24,8 @@ TARGET_IP = ""
 INTERFACE = "wlan0"
 N         = 100
 
+if os.geteuid() != 0:
+    print("Some functionalities requires root privileges")
+    exit()
+
 send_packets(TARGET_IP, INTERFACE, N)
