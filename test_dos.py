@@ -1,3 +1,12 @@
+"""
+#========================================#
+# This is for educational purposes only, #
+#     do not use against any person.     #
+#           Be a good person             #
+#========================================#
+
+Code for simlutaing dos for test block_dos.py
+"""
 from scapy.all import Ether, IP, TCP, sendp
 
 
